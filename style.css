@@ -1,0 +1,435 @@
+/* h1 {
+    display: inline;
+    margin: 0 auto;
+    background-color: aqua
+}
+
+.SUS {
+    color: red;
+    background: #000;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 10px 25px 0;
+    direction: rtl;
+    text-decoration: overline;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+}
+
+.SUS:hover {
+    color: black;
+    background: pink;
+    border-radius: 0px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 10px 25px 0;
+    direction: inherit;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    transform: matrix(50);
+    transition: 1s;
+}
+
+/* 2-ая пошла */
+
+/*.SAS {
+    color: red;
+    background: #000;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 10px 25px 0;
+    direction: rtl;
+    text-decoration: overline;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+}
+
+.SAS:hover {
+    color: black;
+    background: pink;
+    border-radius: 0px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 10px 25px 0;
+    direction: inherit;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    transform: matrix(50);
+    transition: 1s;
+}
+
+/* 3-я пошла */
+
+/*.SES {
+    color: red;
+    background: #000;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0 25px 0;
+    direction: rtl;
+    text-decoration: overline;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+}
+
+.SES:hover {
+    color: black;
+    background: pink;
+    border-radius: 0px;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0 25px 0;
+    direction: inherit;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    transform: matrix(50);
+    transition: 1s;
+}
+
+.SI {
+    color: white;
+    background-color: white;
+    margin: 100px 20px;
+    font-size: 75px;
+}
+
+.SI:hover {
+    color: black;
+    background-color: red;
+} */
+
+/* НАЧАЛО */ /* НАЧАЛО */  /* НАЧАЛО */ /* НАЧАЛО */ /* НАЧАЛО */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bellota:wght@300;400&family=Comfortaa:wght@300;400;500&family=Oswald:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0; margin: 0;
+}
+
+body {
+    font-family: 'Oswald';
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px;
+    border-radius: 5px;
+}
+
+.header a {
+    float: right;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/amaticsc/v24/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    width: 10%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header a:hover {
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+/* .I-web {
+    font-size: 18px;
+    float: left;
+} */
+
+/* .name {
+    display: inline;
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/amaticsc/v24/TUZyzwprpvBS1izr_vOEDuSfQZQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    margin-left: 20%;
+} */
+
+.logo {
+    width: 756.7914px;
+    height: 163.4783px;
+    float: left;
+    margin: 15px 0 10px 10px;
+}
+
+.lightgray {
+    background-color: lightgray;
+    width: 100%;
+    min-height: 190px;
+}
+
+.clear {
+    clear: both;
+}
+
+.white {
+    width: 100%;
+    height: auto;
+    min-height: 190px;
+}
+
+.container {
+    width: 70%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.works img {
+    width: 400px;
+    height: 400px;
+}
+
+.say-portfolio-logos {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC';
+    font-weight: 900;
+}
+
+.say-portfolio-AIworks {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC';
+    font-weight: 900;
+}
+
+.say-portfolio-kalendars {
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC';
+    font-weight: 900;
+}
+
+.portfolio-logos img {
+    width: 25%;
+    height: auto;
+}
+
+.portfolio-logos img {
+    width: 25%;
+    height: auto;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio img {
+    width: 20%;
+}
+
+.about-feedbacks {
+    font-family: 'Amatic SC';
+    font-weight: 900;
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.ur-feedback {
+    font-family: 'Amatic SC';
+    font-weight: 900;
+    font-size: 25px;
+    margin: 15px;
+    padding: 20px 15px;
+    background-color: lightgray;
+    color: black;
+    display: inline;
+}
+
+.ur-feedback:hover {
+    background-color: lightblue;
+    color: rgb(100, 100, 100);
+    transition: 0.7s;
+}
+
+.ur-feedback a {
+    text-decoration: none;
+    color: black;
+}
+
+.ur-feedback a:hover {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    transition: 0.5s
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* АДАПТАЦИЯ */                                     /* АДАПТАЦИЯ */                                     /* АДАПТАЦИЯ */
+/* 11111 */
+@media screen and (max-width: 1713px) {
+
+    .lightgray {
+        height: 270px;
+    }
+
+}
+
+
+/* 22222 */
+@media screen and (max-width: 1366px) {
+.logo{
+    width: 475.0074px;
+    height: 102.6087px;
+    }
+
+
+.lightgray {
+    height: 210px;
+}
+
+.header a {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+}
+
+
+/* 33333 */
+@media screen and (max-width: 1024px) {
+.logo {
+    width: 290px;
+    height: 62.6443px;
+ }
+
+.header a {
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.lightgray {
+    min-height: 180px;
+}
+
+}
+
+
+/* 44444 */
+@media screen and (max-width: 768px) {
+.logo {
+        width: 290px;
+        height: 62.6443px;
+    }
+
+.header a {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .lightgray {
+        min-height: 210px;
+    }
+}
+
+
+/* 55555 */
+@media screen and (max-width: 360px) {
+.header a {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .lightgray {
+        min-height: 160px;
+    }
+}
+
+/* АДАПТАЦИЯ */                                     /* АДАПТАЦИЯ */                                     /* АДАПТАЦИЯ */

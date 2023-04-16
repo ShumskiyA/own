@@ -1,3 +1,0 @@
-# my-site
-my-site
-

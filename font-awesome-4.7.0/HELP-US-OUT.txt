@@ -1,6 +1,7 @@
-Я надеюсь Вы любите Font Awesome. Если Вы находите шрифт полезным, пожалуйста, сделайте мне одолжение и посмотрите мой последний проект -
-Fort Awesome (https://fortawesome.com). Это позволит легко внедрить превосходные иконки в ваш проект. Выбери необходимое из комплектов иконок  или скопируй и вставь свои.
+I hope you love Font Awesome. If you've found it useful, please do me a favor and check out my latest project,
+Fort Awesome (https://fortawesome.com). It makes it easy to put the perfect icons on your website. Choose from our awesome,
+comprehensive icon sets or copy and paste your own.
 
-Пожалуйста. Попробуй.
+Please. Check it out.
 
--Дейв Ганди (Dave Gandy)
+-Dave Gandy
